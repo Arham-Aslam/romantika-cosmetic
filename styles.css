@@ -18,12 +18,13 @@ body {
 
 #header-img {
   height: 100px;
-  width: 200px;
+  width: 50%;
 }
 
 #nav-bar {
   display: flex;
   gap: 5%;
+  margin-left: 10%;
   margin-right: 10%;
   font-size: 120%;
 }
@@ -105,6 +106,7 @@ p {
 
 #pdt {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 70%;
   margin-top: 50px;
@@ -116,6 +118,11 @@ p {
   height: 300px;
   border: solid black;
   background-color: #00f0ff;
+  margin: auto;
+}
+
+#pdt_gap {
+  height: 30px;
 }
 
 #pdt_1 {
@@ -153,18 +160,19 @@ button {
   background-color: #00ffbd;
 }
 
-#ft-p-1 {
-  margin-left: 10%;
+#ft-p {
+  text-align: center;
+  margin-left: auto;
   font-style: italic;
-  margin-bottom: 40px;
-  margin-top: 40px;
 }
 
-#ft-p-2 {
-  margin-right: 10%;
-  font-style: italic;
-  margin-bottom: 40px;
-  margin-top: 40px;
+
+#ft-rws {
+  width: 100%;
+}
+
+#ft-gap {
+  height: 20px;
 }
 
 #div {
@@ -173,6 +181,7 @@ button {
   justify-content: center;
   gap: 40px;
 }
+
 
 
 
