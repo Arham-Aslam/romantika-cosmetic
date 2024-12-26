@@ -177,7 +177,7 @@ button {
 
 
 
-@media (min-width: 1500px) {
+@media (min-width: 800px) {
   
   #products {
     margin-top: 100px;
@@ -188,6 +188,7 @@ button {
 
   #pdt {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 60%;
     margin-top: 50px;
@@ -201,10 +202,6 @@ button {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 60px;
-  }
-
-  #pdt_2 {
-    margin: auto;
   }
 
   #sub_pdt {
@@ -227,5 +224,15 @@ button {
     color: rgb(255, 0, 30);
     font-weight: bold;
     border: 0;
+  }
+
+  #ft-p {
+    align-items: center;
+    margin: auto;
+    font-style: italic;
+  }
+
+  #ft-rws {
+    width: 100%;
   }
 }
