@@ -203,6 +203,10 @@ button {
     margin-bottom: 60px;
   }
 
+  #pdt_2 {
+    margin: auto;
+  }
+
   #sub_pdt {
     width: 350px;
     height: 350px;
